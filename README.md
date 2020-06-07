@@ -19,17 +19,23 @@ Projeto desenvolvido em 5 dias, na semana Next Level Week pelo Rocketset
 
 ## passo a passo para instalar os requisitos no projeto:
 
-1. Iniciar arquvio json: npm init -y
+1. Abra o terminal do vs code com o atalho CTRL + '
 
-2. Instalar o express para a dependencias do node: npm install express
+2. Clique em powershell, "Selecionar Shell Padrão", Git Bash
 
-3. Iniciar o servidor: node src/server.js
+3. Feche o terminal e abra novamente
 
-4. Para o servidor sempre iniciar automaticamente: npm install nodemon -D
+4. Iniciar arquvio json: npm init -y
 
-5. Instale para poder usar variaveis e funções no HTML: npm install nunjucks
+5. Instalar o express para a dependencias do node: npm install express
 
-6. Aperte CTRL + P e acesse os "Open Settings (JSON)" para configurar o nunjucks no vscode:
+6. Iniciar o servidor: node src/server.js
+
+7. Para o servidor sempre iniciar automaticamente: npm install nodemon -D
+
+8. Instale para poder usar variaveis e funções no HTML: npm install nunjucks
+
+9. Aperte CTRL + P e acesse os "Open Settings (JSON)" para configurar o nunjucks no vscode:
     
     "files.associations": {
         "*.html": "njk"
@@ -42,4 +48,4 @@ Projeto desenvolvido em 5 dias, na semana Next Level Week pelo Rocketset
     ],
     "workbeanch.iconTheme": "vscode"
 
-7. Instalar o SQLite3: npm install sqlite3
+10. Instalar o SQLite3: npm install sqlite3
