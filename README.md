@@ -2,7 +2,7 @@
 
 ## Ecoleta - Next Level Week
 
-> Projeto desenvolvido em 5 dias, na semana Next Level Week pelo Rocketset
+Projeto desenvolvido em 5 dias, na semana Next Level Week pelo Rocketset
 
 ## Tecnológias utlizadas:
 
@@ -19,17 +19,17 @@
 
 ## passo a passo para instalar os requisitos no projeto:
 
-* Iniciar arquvio json: npm init -y
+1. Iniciar arquvio json: npm init -y
 
-* Instalar o express para a dependencias do node: npm install express
+2. Instalar o express para a dependencias do node: npm install express
 
-* Iniciar o servidor: node src/server.js
+3. Iniciar o servidor: node src/server.js
 
-* Para o servidor sempre iniciar automaticamente: npm install nodemon -D
+4. Para o servidor sempre iniciar automaticamente: npm install nodemon -D
 
-* Instale para poder usar variaveis e funções no HTML: npm install nunjucks
+5. Instale para poder usar variaveis e funções no HTML: npm install nunjucks
 
-* Aperte CTRL + P e acesse os "Open Settings (JSON)" para configurar o nunjucks no vscode:
+6. Aperte CTRL + P e acesse os "Open Settings (JSON)" para configurar o nunjucks no vscode:
     
     "files.associations": {
         "*.html": "njk"
@@ -42,4 +42,4 @@
     ],
     "workbeanch.iconTheme": "vscode"
 
-* Instalar o SQLite3: npm install sqlite3
+7. Instalar o SQLite3: npm install sqlite3
